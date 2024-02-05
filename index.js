@@ -14,7 +14,7 @@ temperatureElement.innerHTML = Math.round(temperature);
 
 function searchCity(city) {
 let apiKey = "6c965c38ef26afd0073obc5a4fe850t0";
-let apiUrl = 'https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric';
+let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric`;
 axios.get(apiUrl).then(refreshWeather);
 }
 
