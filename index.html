@@ -12,19 +12,27 @@
 <body>
   <div class="weather-app">
   <header>
-    <form>
-<input type="search" placeholder="Enter a city..." required />
-<input type="submit" value="Search"/>
+    <form class="search-form">
+<input type="search" placeholder="Enter a city..." required class="search-form-input"/>
+<input type="submit" value="Search" class="search-form-button"/>
   </form>
 </header>
   <main>
-    <div><h1>Paris</h1>
-      <p>
+    <div class="weather-app-data">
+    <div><h1 class="weather-app-city">Paris</h1>
+      <p class="weather-app-details">
         Tuesday 12:49, scattered clouds
         <br/>
-        Humidity: 66%, Wind: 12mph
+        Humidity:<strong>66%</strong>, Wind: <strong>12mph</strong>
       </p></div>
-  <div>⛅45°F</div>
+
+      <div class="temperature-container">
+  <div class="weather-app-icon">⛅</div>
+    <div class="weather-app-temperature">45</div>
+     <div class="weather-app-unit">°F</div>
+      </div>
+</div>
+    
 </main>
   <footer>Coded by <a href="https://github.com/codetaru">Derricka Allen</a>  
     Open-sourced on<a href="https://github.com/codetaru/gorgeous"> Github</a> 
