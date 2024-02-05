@@ -59,8 +59,9 @@ font-weight: 500;
 color: magenta;
 }
 .weather-app-icon {
-  font-size: 40px;
-  margin-top: 22px;
+  width: 80px;
+  height:80px;
+  margin-top: 20px;
 }
 .temperature-container {
   display: flex;
@@ -71,7 +72,7 @@ color: magenta;
   font-weight: bold;
 }
 .weather-app-unit {
-  margin-top: 30px;
+  margin-top: 10px;
   font-weight: bold;
 }
 footer {
